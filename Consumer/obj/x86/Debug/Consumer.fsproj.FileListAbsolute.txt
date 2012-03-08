@@ -1,0 +1,24 @@
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\bin\Debug\Consumer.XML
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\bin\Debug\Consumer.exe
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\bin\Debug\Consumer.pdb
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\bin\Debug\Messages.dll
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\bin\Debug\SimpleBus.dll
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\bin\Debug\Messages.pdb
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\bin\Debug\Messages.xml
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\bin\Debug\SimpleBus.pdb
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\bin\Debug\SimpleBus.xml
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\obj\x86\Debug\Consumer.exe
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\SimpleBus\Consumer\obj\x86\Debug\Consumer.pdb
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\bin\Debug\Consumer.XML
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\bin\Debug\Consumer.exe
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\bin\Debug\Consumer.pdb
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\bin\Debug\Messages.dll
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\bin\Debug\SimpleBus.dll
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\bin\Debug\Messages.pdb
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\bin\Debug\Messages.xml
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\bin\Debug\SimpleBus.pdb
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\bin\Debug\SimpleBus.xml
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\obj\x86\Debug\Consumer.exe
+C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\obj\x86\Debug\Consumer.pdb
