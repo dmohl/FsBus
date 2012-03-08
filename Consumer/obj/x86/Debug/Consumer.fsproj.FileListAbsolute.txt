@@ -33,3 +33,16 @@ C:\git\FsBus\Consumer\bin\Debug\Messages.dll
 C:\git\FsBus\Consumer\bin\Debug\Messages.pdb
 C:\git\FsBus\Consumer\bin\Debug\Messages.xml
 C:\git\FsBus\Consumer\bin\Debug\FsBus.pdb
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Async.dll
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Core.dll
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Http.dll
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Observable.dll
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Async.pdb
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Async.xml
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Core.pdb
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Core.xml
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Http.pdb
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Http.xml
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Observable.pdb
+C:\git\FsBus\Consumer\bin\Debug\FSharpx.Observable.xml
+C:\git\FsBus\Consumer\bin\Debug\FsBus.xml

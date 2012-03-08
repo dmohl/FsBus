@@ -28,8 +28,9 @@ C:\git\FsBus\Publisher\obj\Debug\Publisher.exe
 C:\git\FsBus\Publisher\obj\Debug\Publisher.pdb
 C:\git\FsBus\Publisher\bin\Debug\Publisher.exe
 C:\git\FsBus\Publisher\bin\Debug\Publisher.pdb
-C:\git\FsBus\Publisher\bin\Debug\FsBus.dll
 C:\git\FsBus\Publisher\bin\Debug\Messages.dll
 C:\git\FsBus\Publisher\bin\Debug\Messages.pdb
 C:\git\FsBus\Publisher\bin\Debug\Messages.xml
+C:\git\FsBus\Publisher\bin\Debug\FsBus.dll
 C:\git\FsBus\Publisher\bin\Debug\FsBus.pdb
+C:\git\FsBus\Publisher\bin\Debug\FsBus.xml

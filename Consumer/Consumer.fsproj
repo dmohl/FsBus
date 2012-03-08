@@ -34,31 +34,46 @@
     <PlatformTarget>x86</PlatformTarget>
     <DocumentationFile>bin\Release\Consumer.XML</DocumentationFile>
   </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\FSharp\1.0\Microsoft.FSharp.Targets" Condition="!Exists('$(MSBuildBinPath)\Microsoft.Build.Tasks.v4.0.dll')" />
+  <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets" Condition=" Exists('$(MSBuildBinPath)\Microsoft.Build.Tasks.v4.0.dll')" />
   <ItemGroup>
+    <Compile Include="Program.fs" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FSharpx.Async">
+      <HintPath>..\packages\FSharpx.Core.1.4.120213\lib\FSharpx.Async.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FSharpx.Core">
+      <HintPath>..\packages\FSharpx.Core.1.4.120213\lib\FSharpx.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FSharpx.Http">
+      <HintPath>..\packages\FSharpx.Core.1.4.120213\lib\FSharpx.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FSharpx.Observable">
+      <HintPath>..\packages\FSharpx.Core.1.4.120213\lib\FSharpx.Observable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Messaging" />
     <Reference Include="System.Numerics" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Program.fs" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\FsBus\FsBus.fsproj">
+      <Name>FsBus</Name>
+      <Project>{c638192b-fd84-4146-8dcc-cf71f9c2a890}</Project>
+      <Private>True</Private>
+    </ProjectReference>
     <ProjectReference Include="..\Messages\Messages.fsproj">
       <Name>Messages</Name>
       <Project>{a80b7a45-ba4d-4954-9acb-58e75b2be6cd}</Project>
       <Private>True</Private>
     </ProjectReference>
-    <ProjectReference Include="..\SimpleBus\FsBus.fsproj">
-      <Name>FsBus</Name>
-      <Project>{c638192b-fd84-4146-8dcc-cf71f9c2a890}</Project>
-      <Private>True</Private>
-    </ProjectReference>
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath32)\FSharp\1.0\Microsoft.FSharp.Targets" Condition="!Exists('$(MSBuildBinPath)\Microsoft.Build.Tasks.v4.0.dll')" />
-  <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets" Condition=" Exists('$(MSBuildBinPath)\Microsoft.Build.Tasks.v4.0.dll')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 	     Other similar extension points exist, see Microsoft.Common.targets.
 	<Target Name="BeforeBuild">

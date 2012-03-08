@@ -16,3 +16,5 @@ C:\git\FsBus\Messages\bin\Debug\Messages.pdb
 C:\git\FsBus\Messages\obj\Debug\ResolveAssemblyReference.cache
 C:\git\FsBus\Messages\obj\Debug\Messages.dll
 C:\git\FsBus\Messages\obj\Debug\Messages.pdb
+C:\git\FsBus\Messages\bin\Debug\FSharp.Core.dll
+C:\git\FsBus\Messages\bin\Debug\FSharp.Core.xml
