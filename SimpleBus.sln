@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SimpleBus", "SimpleBus\SimpleBus.fsproj", "{C638192B-FD84-4146-8DCC-CF71F9C2A890}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsBus", "SimpleBus\FsBus.fsproj", "{C638192B-FD84-4146-8DCC-CF71F9C2A890}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Consumer", "Consumer\Consumer.fsproj", "{B1B64218-926D-467E-BF52-243C1907251E}"
 EndProject

@@ -47,8 +47,8 @@
       <Project>{a80b7a45-ba4d-4954-9acb-58e75b2be6cd}</Project>
       <Private>True</Private>
     </ProjectReference>
-    <ProjectReference Include="..\SimpleBus\SimpleBus.fsproj">
-      <Name>SimpleBus</Name>
+    <ProjectReference Include="..\SimpleBus\FsBus.fsproj">
+      <Name>FsBus</Name>
       <Project>{c638192b-fd84-4146-8dcc-cf71f9c2a890}</Project>
       <Private>True</Private>
     </ProjectReference>

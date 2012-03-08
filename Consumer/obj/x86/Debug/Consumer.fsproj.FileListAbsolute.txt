@@ -22,3 +22,14 @@ C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with F
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\obj\x86\Debug\Consumer.exe
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\obj\x86\Debug\Consumer.pdb
+C:\git\FsBus\Consumer\bin\Debug\Consumer.XML
+C:\git\FsBus\Consumer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\FsBus\Consumer\obj\x86\Debug\Consumer.exe
+C:\git\FsBus\Consumer\obj\x86\Debug\Consumer.pdb
+C:\git\FsBus\Consumer\bin\Debug\Consumer.exe
+C:\git\FsBus\Consumer\bin\Debug\Consumer.pdb
+C:\git\FsBus\Consumer\bin\Debug\FsBus.dll
+C:\git\FsBus\Consumer\bin\Debug\Messages.dll
+C:\git\FsBus\Consumer\bin\Debug\Messages.pdb
+C:\git\FsBus\Consumer\bin\Debug\Messages.xml
+C:\git\FsBus\Consumer\bin\Debug\FsBus.pdb

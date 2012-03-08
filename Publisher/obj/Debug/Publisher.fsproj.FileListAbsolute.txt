@@ -22,3 +22,14 @@ C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with F
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Publisher\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Publisher\obj\Debug\Publisher.exe
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Publisher\obj\Debug\Publisher.pdb
+C:\git\FsBus\Publisher\bin\Debug\Publisher.XML
+C:\git\FsBus\Publisher\obj\Debug\ResolveAssemblyReference.cache
+C:\git\FsBus\Publisher\obj\Debug\Publisher.exe
+C:\git\FsBus\Publisher\obj\Debug\Publisher.pdb
+C:\git\FsBus\Publisher\bin\Debug\Publisher.exe
+C:\git\FsBus\Publisher\bin\Debug\Publisher.pdb
+C:\git\FsBus\Publisher\bin\Debug\FsBus.dll
+C:\git\FsBus\Publisher\bin\Debug\Messages.dll
+C:\git\FsBus\Publisher\bin\Debug\Messages.pdb
+C:\git\FsBus\Publisher\bin\Debug\Messages.xml
+C:\git\FsBus\Publisher\bin\Debug\FsBus.pdb

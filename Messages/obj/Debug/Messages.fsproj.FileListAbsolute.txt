@@ -10,3 +10,9 @@ C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with F
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Messages\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Messages\obj\Debug\Messages.dll
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Messages\obj\Debug\Messages.pdb
+C:\git\FsBus\Messages\bin\Debug\Messages.XML
+C:\git\FsBus\Messages\bin\Debug\Messages.dll
+C:\git\FsBus\Messages\bin\Debug\Messages.pdb
+C:\git\FsBus\Messages\obj\Debug\ResolveAssemblyReference.cache
+C:\git\FsBus\Messages\obj\Debug\Messages.dll
+C:\git\FsBus\Messages\obj\Debug\Messages.pdb
