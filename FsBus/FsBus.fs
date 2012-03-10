@@ -1,39 +1,52 @@
-﻿module FsBus
+﻿namespace FsBus
 
 open System
 open System.Messaging
 open System.Transactions
+open System.Collections.Generic
 
-let private createQueueIfMissing (queueName:string) =
-    if not (MessageQueue.Exists queueName) then
-        MessageQueue.Create(queueName, true) |> ignore
+type MessageBus(queueName:string) = 
+    let createQueueIfMissing (queueName:string) =
+        if not (MessageQueue.Exists queueName) then
+            MessageQueue.Create(queueName, true) |> ignore
 
-let private parseQueueName (queueName:string) =             
-    let fullName = match queueName.Contains("@") with
-                   | true when queueName.Split('@').[1] <> "localhost" -> 
-                       queueName.Split('@').[1] + "\\private$\\" + queueName.Split('@').[0]
-                   | _ -> ".\\private$\\" + queueName
-    createQueueIfMissing fullName
-    fullName
+    let parseQueueName (queueName:string) =             
+        let fullName = match queueName.Contains("@") with
+                       | true when queueName.Split('@').[1] <> "localhost" -> 
+                           queueName.Split('@').[1] + "\\private$\\" + queueName.Split('@').[0]
+                       | _ -> ".\\private$\\" + queueName
+        createQueueIfMissing fullName
+        fullName
+    
+    let messageQueue = new MessageQueue(parseQueueName queueName)
 
-let Subscribe<'a> queueName (callback:Action<'a>) =     
-    let queue = new MessageQueue(parseQueueName queueName)
+    member x.QueueName with get() = queueName
 
-    queue.ReceiveCompleted.Add( 
-        fun (args) -> 
-            args.Message.Formatter <- new XmlMessageFormatter([| typeof<'a> |])
-            args.Message.Body :?> 'a |> callback.Invoke                                            
-            queue.BeginReceive() |> ignore)
+    member x.Publish message =     
+        let msgTypeName = message.GetType().AssemblyQualifiedName
+        let msg = new Message(Body = message, Label = msgTypeName)
+        match messageQueue.Transactional with
+        | true -> 
+            use scope = new TransactionScope()
+            messageQueue.Send(msg, MessageQueueTransactionType.Automatic)
+            scope.Complete()
+        | _ -> messageQueue.Send(msg)
 
-    queue.BeginReceive() |> ignore
-    queue
+    member x.Subscribe<'a> (callback:Action<'a>) =     
+        messageQueue.ReceiveCompleted.Add( 
+            fun (args) -> 
+                try                              
+                    args.Message.Formatter <- new XmlMessageFormatter([| args.Message.Label |])
+                    args.Message.Body :?> 'a |> callback.Invoke
+                with
+                | ex -> 
+                    // TODO: Add logging and determine what to do with messages that caused an error.
+                    printfn "%s" ex.Message
+                    raise ex
+                messageQueue.BeginReceive() |> ignore)
 
-let Publish queueName message =     
-    use queue = new MessageQueue(parseQueueName queueName)
-    let msg = new Message(message)
-    match queue.Transactional with
-    | true -> 
-        use scope = new TransactionScope()
-        queue.Send(msg, MessageQueueTransactionType.Automatic)
-        scope.Complete()
-    | _ -> queue.Send(msg)
+        messageQueue.BeginReceive() |> ignore
+
+    interface IDisposable with
+        member x.Dispose() = messageQueue.Dispose()
+    member x.Dispose() = messageQueue.Dispose()

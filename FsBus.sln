@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Messages", "Messages\Messag
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Publisher", "Publisher\Publisher.fsproj", "{C5F62111-9A28-4344-9D8A-F611A580459C}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Publisher_DeletedGuitarCommand", "Publisher_DeletedGuitarCommand\Publisher_DeletedGuitarCommand.fsproj", "{775B8B18-F4C9-4B70-A54A-A11D7067C131}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,16 @@ Global
 		{C5F62111-9A28-4344-9D8A-F611A580459C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{C5F62111-9A28-4344-9D8A-F611A580459C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C5F62111-9A28-4344-9D8A-F611A580459C}.Release|x86.ActiveCfg = Release|Any CPU
+		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Debug|x86.ActiveCfg = Debug|x86
+		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Debug|x86.Build.0 = Debug|x86
+		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Release|Any CPU.ActiveCfg = Release|x86
+		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Release|Mixed Platforms.Build.0 = Release|x86
+		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Release|x86.ActiveCfg = Release|x86
+		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

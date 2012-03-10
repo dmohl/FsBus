@@ -2,6 +2,9 @@
 <doc>
 <assembly><name>Publisher</name></assembly>
 <members>
+<member name="">
+
+</member>
 <member name="T:Program">
 
 </member>
