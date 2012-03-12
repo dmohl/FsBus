@@ -12,6 +12,8 @@ let deleteGuitarCommands = new MessageBus("sample_queue")
 
 deleteGuitarCommands.Subscribe<DeleteGuitarCommand>
                         (new Action<_>(fun cmd -> printfn "A request to DELETE a Guitar with name %s was consumed" cmd.Name))
+                        (new Action<Exception, obj>(fun ex o -> 
+                            printfn "Exception: %s and message: %s" ex.Message (o.ToString())))
     
 printfn "Press any key to quite\r\n"
 Console.ReadLine() |> ignore

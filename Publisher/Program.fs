@@ -3,14 +3,27 @@ open System
 open FsBus
 
 let bus = new MessageBus("sample_queue")
+
+bus.Publish (new DeleteGuitarCommand(Name="test"))
+printfn "Publishing delete message 1"
+
 bus.Publish (new CreateGuitarCommand(Name="test"))
 printfn "Publishing message 1"
+
+bus.Publish (new DeleteGuitarCommand(Name="test"))
+printfn "Publishing delete message 2"
 
 bus.Publish (new CreateGuitarCommand(Name="test2"))
 printfn "Publishing message 2"
 
+bus.Publish (new DeleteGuitarCommand(Name="test"))
+printfn "Publishing delete message 3"
+
 bus.Publish (new CreateGuitarCommand(Name="test3"))
 printfn "Publishing message 3"
+
+bus.Publish (new DeleteGuitarCommand(Name="test"))
+printfn "Publishing delete message 3"
 
 //[1..1000000] |> Seq.iter (fun x -> 
 //                    bus.Publish (new CreateGuitarCommand(Name="test" + x.ToString()))

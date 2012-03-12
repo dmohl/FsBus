@@ -24,7 +24,7 @@ type MessageBus(queueName:string) =
 
     member x.Publish message =     
         let msgTypeName = message.GetType().AssemblyQualifiedName
-        let msg = new Message(Body = message, Label = msgTypeName)
+        let msg = new Message(Body = message, Formatter = new BinaryMessageFormatter())
         match messageQueue.Transactional with
         | true -> 
             use scope = new TransactionScope()
@@ -36,11 +36,11 @@ type MessageBus(queueName:string) =
         messageQueue.ReceiveCompleted.Add( 
             fun (args) -> 
                 try                              
-                    args.Message.Formatter <- new XmlMessageFormatter([| args.Message.Label |])
+                    args.Message.Formatter <- new BinaryMessageFormatter()
                     args.Message.Body :?> 'a |> success.Invoke
                 with
                 | ex ->
-                    failure.Invoke(ex, args.Message)  
+                    failure.Invoke(ex, args.Message.Body)  
                 messageQueue.BeginReceive() |> ignore)
 
         messageQueue.BeginReceive() |> ignore
