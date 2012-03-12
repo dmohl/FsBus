@@ -32,17 +32,15 @@ type MessageBus(queueName:string) =
             scope.Complete()
         | _ -> messageQueue.Send(msg)
 
-    member x.Subscribe<'a> (callback:Action<'a>) =     
+    member x.Subscribe<'a> (success:Action<'a>) (failure:Action<Exception, obj>) =     
         messageQueue.ReceiveCompleted.Add( 
             fun (args) -> 
                 try                              
                     args.Message.Formatter <- new XmlMessageFormatter([| args.Message.Label |])
-                    args.Message.Body :?> 'a |> callback.Invoke
+                    args.Message.Body :?> 'a |> success.Invoke
                 with
-                | ex -> 
-                    // TODO: Add logging and determine what to do with messages that caused an error.
-                    printfn "%s" ex.Message
-                    raise ex
+                | ex ->
+                    failure.Invoke(ex, args.Message)  
                 messageQueue.BeginReceive() |> ignore)
 
         messageQueue.BeginReceive() |> ignore

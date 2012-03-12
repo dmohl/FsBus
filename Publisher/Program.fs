@@ -12,9 +12,9 @@ printfn "Publishing message 2"
 bus.Publish (new CreateGuitarCommand(Name="test3"))
 printfn "Publishing message 3"
 
-[1..1000000] |> Seq.iter (fun x -> 
-                    bus.Publish (new CreateGuitarCommand(Name="test" + x.ToString()))
-                    printfn "Publishing message %i" x)
+//[1..1000000] |> Seq.iter (fun x -> 
+//                    bus.Publish (new CreateGuitarCommand(Name="test" + x.ToString()))
+//                    printfn "Publishing message %i" x)
 
 printfn "Press any key to quite\r\n"
 Console.ReadLine() |> ignore
