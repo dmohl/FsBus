@@ -13,8 +13,8 @@ C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with F
 C:\git\FsBus\Messages\bin\Debug\Messages.XML
 C:\git\FsBus\Messages\bin\Debug\Messages.dll
 C:\git\FsBus\Messages\bin\Debug\Messages.pdb
+C:\git\FsBus\Messages\bin\Debug\FSharp.Core.dll
+C:\git\FsBus\Messages\bin\Debug\FSharp.Core.xml
 C:\git\FsBus\Messages\obj\Debug\ResolveAssemblyReference.cache
 C:\git\FsBus\Messages\obj\Debug\Messages.dll
 C:\git\FsBus\Messages\obj\Debug\Messages.pdb
-C:\git\FsBus\Messages\bin\Debug\FSharp.Core.dll
-C:\git\FsBus\Messages\bin\Debug\FSharp.Core.xml

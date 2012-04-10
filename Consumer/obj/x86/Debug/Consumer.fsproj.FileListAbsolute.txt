@@ -22,21 +22,20 @@ C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with F
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\obj\x86\Debug\Consumer.exe
 C:\Users\dmohl\Dropbox\Dan\Book\Building Web, Cloud, and Mobile Solutions with FSharp\CodeExamples\SimpleBus\Consumer\obj\x86\Debug\Consumer.pdb
-C:\git\FsBus\Consumer\bin\Debug\Consumer.XML
 C:\git\FsBus\Consumer\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\git\FsBus\Consumer\obj\x86\Debug\Consumer.exe
-C:\git\FsBus\Consumer\obj\x86\Debug\Consumer.pdb
+C:\git\FsBus\Consumer\bin\Debug\Consumer.XML
 C:\git\FsBus\Consumer\bin\Debug\Consumer.exe
 C:\git\FsBus\Consumer\bin\Debug\Consumer.pdb
 C:\git\FsBus\Consumer\bin\Debug\FsBus.dll
-C:\git\FsBus\Consumer\bin\Debug\Messages.dll
-C:\git\FsBus\Consumer\bin\Debug\Messages.pdb
-C:\git\FsBus\Consumer\bin\Debug\Messages.xml
-C:\git\FsBus\Consumer\bin\Debug\FsBus.pdb
 C:\git\FsBus\Consumer\bin\Debug\FSharpx.Async.dll
 C:\git\FsBus\Consumer\bin\Debug\FSharpx.Core.dll
 C:\git\FsBus\Consumer\bin\Debug\FSharpx.Http.dll
 C:\git\FsBus\Consumer\bin\Debug\FSharpx.Observable.dll
+C:\git\FsBus\Consumer\bin\Debug\Messages.dll
+C:\git\FsBus\Consumer\bin\Debug\FsBus.pdb
+C:\git\FsBus\Consumer\bin\Debug\FsBus.xml
+C:\git\FsBus\Consumer\bin\Debug\Messages.pdb
+C:\git\FsBus\Consumer\bin\Debug\Messages.xml
 C:\git\FsBus\Consumer\bin\Debug\FSharpx.Async.pdb
 C:\git\FsBus\Consumer\bin\Debug\FSharpx.Async.xml
 C:\git\FsBus\Consumer\bin\Debug\FSharpx.Core.pdb
@@ -45,4 +44,5 @@ C:\git\FsBus\Consumer\bin\Debug\FSharpx.Http.pdb
 C:\git\FsBus\Consumer\bin\Debug\FSharpx.Http.xml
 C:\git\FsBus\Consumer\bin\Debug\FSharpx.Observable.pdb
 C:\git\FsBus\Consumer\bin\Debug\FSharpx.Observable.xml
-C:\git\FsBus\Consumer\bin\Debug\FsBus.xml
+C:\git\FsBus\Consumer\obj\x86\Debug\Consumer.exe
+C:\git\FsBus\Consumer\obj\x86\Debug\Consumer.pdb
