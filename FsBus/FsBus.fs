@@ -24,7 +24,7 @@ type MessageBus(queueName:string) =
 
     member x.Publish message =     
         let msgTypeName = message.GetType().AssemblyQualifiedName
-        let msg = new Message(Body = message, Formatter = new BinaryMessageFormatter())
+        let msg = new Message(Label = msgTypeName, Body = message, Formatter = new BinaryMessageFormatter())
         match messageQueue.Transactional with
         | true -> 
             use scope = new TransactionScope()
