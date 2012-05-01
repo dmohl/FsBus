@@ -1,0 +1,8 @@
+C:\git\FsBus\Messages\bin\Release\Messages.XML
+C:\git\FsBus\Messages\bin\Release\Messages.dll
+C:\git\FsBus\Messages\bin\Release\Messages.pdb
+C:\git\FsBus\Messages\bin\Release\FSharp.Core.dll
+C:\git\FsBus\Messages\bin\Release\FSharp.Core.xml
+C:\git\FsBus\Messages\obj\Release\ResolveAssemblyReference.cache
+C:\git\FsBus\Messages\obj\Release\Messages.dll
+C:\git\FsBus\Messages\obj\Release\Messages.pdb

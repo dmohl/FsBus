@@ -11,6 +11,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Publisher", "Publisher\Publ
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Publisher_DeletedGuitarCommand", "Publisher_DeletedGuitarCommand\Publisher_DeletedGuitarCommand.fsproj", "{775B8B18-F4C9-4B70-A54A-A11D7067C131}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsBus.Tests", "FsBus.Tests\FsBus.Tests.fsproj", "{EA2D9018-B17D-4303-9837-2858C48921E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,16 @@ Global
 		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Release|Mixed Platforms.Build.0 = Release|x86
 		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Release|x86.ActiveCfg = Release|x86
 		{775B8B18-F4C9-4B70-A54A-A11D7067C131}.Release|x86.Build.0 = Release|x86
+		{EA2D9018-B17D-4303-9837-2858C48921E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2D9018-B17D-4303-9837-2858C48921E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2D9018-B17D-4303-9837-2858C48921E0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EA2D9018-B17D-4303-9837-2858C48921E0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EA2D9018-B17D-4303-9837-2858C48921E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EA2D9018-B17D-4303-9837-2858C48921E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2D9018-B17D-4303-9837-2858C48921E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2D9018-B17D-4303-9837-2858C48921E0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EA2D9018-B17D-4303-9837-2858C48921E0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EA2D9018-B17D-4303-9837-2858C48921E0}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

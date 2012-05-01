@@ -1,0 +1,15 @@
+C:\git\FsBus\FsBus.Tests\bin\Debug\FsBus.Tests.XML
+C:\git\FsBus\FsBus.Tests\bin\Debug\FsBus.Tests.dll
+C:\git\FsBus\FsBus.Tests\bin\Debug\FsBus.Tests.pdb
+C:\git\FsBus\FsBus.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\git\FsBus\FsBus.Tests\obj\Debug\FsBus.Tests.dll
+C:\git\FsBus\FsBus.Tests\obj\Debug\FsBus.Tests.pdb
+C:\git\FsBus\FsBus.Tests\bin\Debug\FsUnit.NUnit.dll
+C:\git\FsBus\FsBus.Tests\bin\Debug\nunit.framework.dll
+C:\git\FsBus\FsBus.Tests\bin\Debug\nunit.framework.xml
+C:\git\FsBus\FsBus.Tests\bin\Debug\FsBus.dll
+C:\git\FsBus\FsBus.Tests\bin\Debug\Messages.dll
+C:\git\FsBus\FsBus.Tests\bin\Debug\FsBus.pdb
+C:\git\FsBus\FsBus.Tests\bin\Debug\FsBus.xml
+C:\git\FsBus\FsBus.Tests\bin\Debug\Messages.pdb
+C:\git\FsBus\FsBus.Tests\bin\Debug\Messages.xml

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FsBus.Tests</name></assembly>
+<members>
+<member name="T:Given a real FsBus instance for load testing">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Given an FsBus instance">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Given an real FsBus instance">
+
+</member>
+</members>
+</doc>

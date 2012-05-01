@@ -7,14 +7,14 @@ C:\git\FsBus\SimpleBus\bin\Debug\Messages.xml
 C:\git\FsBus\SimpleBus\obj\Debug\ResolveAssemblyReference.cache
 C:\git\FsBus\SimpleBus\obj\Debug\FsBus.dll
 C:\git\FsBus\SimpleBus\obj\Debug\FsBus.pdb
-C:\git\FsBus\FsBus\obj\Debug\ResolveAssemblyReference.cache
 C:\git\FsBus\FsBus\bin\Debug\FsBus.XML
 C:\git\FsBus\FsBus\bin\Debug\FsBus.dll
 C:\git\FsBus\FsBus\bin\Debug\FsBus.pdb
+C:\git\FsBus\FsBus\bin\Debug\FSharp.Core.dll
 C:\git\FsBus\FsBus\bin\Debug\Messages.dll
 C:\git\FsBus\FsBus\bin\Debug\Messages.pdb
 C:\git\FsBus\FsBus\bin\Debug\Messages.xml
+C:\git\FsBus\FsBus\bin\Debug\FSharp.Core.xml
+C:\git\FsBus\FsBus\obj\Debug\ResolveAssemblyReference.cache
 C:\git\FsBus\FsBus\obj\Debug\FsBus.dll
 C:\git\FsBus\FsBus\obj\Debug\FsBus.pdb
-C:\git\FsBus\FsBus\bin\Debug\FSharp.Core.dll
-C:\git\FsBus\FsBus\bin\Debug\FSharp.Core.xml

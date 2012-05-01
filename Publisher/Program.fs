@@ -2,7 +2,7 @@
 open System
 open FsBus
 
-let bus = new MessageBus("sample_queue")
+let bus = new MessageBus("FormatName:Direct=OS:localhost\\private$\\test", true)
 
 bus.Publish (new DeleteGuitarCommand(Name="test"))
 printfn "Publishing delete message 1"

@@ -1,0 +1,12 @@
+C:\git\FsBus\Publisher\bin\Release\Publisher.XML
+C:\git\FsBus\Publisher\bin\Release\Publisher.exe
+C:\git\FsBus\Publisher\bin\Release\Publisher.pdb
+C:\git\FsBus\Publisher\bin\Release\FsBus.dll
+C:\git\FsBus\Publisher\bin\Release\Messages.dll
+C:\git\FsBus\Publisher\bin\Release\FsBus.pdb
+C:\git\FsBus\Publisher\bin\Release\FsBus.xml
+C:\git\FsBus\Publisher\bin\Release\Messages.pdb
+C:\git\FsBus\Publisher\bin\Release\Messages.xml
+C:\git\FsBus\Publisher\obj\Release\ResolveAssemblyReference.cache
+C:\git\FsBus\Publisher\obj\Release\Publisher.exe
+C:\git\FsBus\Publisher\obj\Release\Publisher.pdb

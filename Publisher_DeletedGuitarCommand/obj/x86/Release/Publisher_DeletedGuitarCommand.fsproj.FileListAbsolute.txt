@@ -1,0 +1,12 @@
+C:\git\FsBus\Publisher_DeletedGuitarCommand\bin\Release\Publisher_DeletedGuitarCommand.XML
+C:\git\FsBus\Publisher_DeletedGuitarCommand\bin\Release\Publisher_DeletedGuitarCommand.exe
+C:\git\FsBus\Publisher_DeletedGuitarCommand\bin\Release\Publisher_DeletedGuitarCommand.pdb
+C:\git\FsBus\Publisher_DeletedGuitarCommand\bin\Release\FsBus.dll
+C:\git\FsBus\Publisher_DeletedGuitarCommand\bin\Release\Messages.dll
+C:\git\FsBus\Publisher_DeletedGuitarCommand\bin\Release\FsBus.pdb
+C:\git\FsBus\Publisher_DeletedGuitarCommand\bin\Release\FsBus.xml
+C:\git\FsBus\Publisher_DeletedGuitarCommand\bin\Release\Messages.pdb
+C:\git\FsBus\Publisher_DeletedGuitarCommand\bin\Release\Messages.xml
+C:\git\FsBus\Publisher_DeletedGuitarCommand\obj\x86\Release\ResolveAssemblyReference.cache
+C:\git\FsBus\Publisher_DeletedGuitarCommand\obj\x86\Release\Publisher_DeletedGuitarCommand.exe
+C:\git\FsBus\Publisher_DeletedGuitarCommand\obj\x86\Release\Publisher_DeletedGuitarCommand.pdb

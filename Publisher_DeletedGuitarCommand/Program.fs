@@ -2,7 +2,7 @@
 open System
 open FsBus
 
-let bus = new MessageBus("sample_queue2")
+let bus = new MessageBus("sample_queue2", false)
 
 [1..1000000] |> Seq.iter (fun x -> 
                     bus.Publish (new DeleteGuitarCommand(Name="test" + x.ToString()))
